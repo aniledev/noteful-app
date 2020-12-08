@@ -1,0 +1,9 @@
+div.Notes-info {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+}
+
+div.Notes-info button {
+  background: red;
+}

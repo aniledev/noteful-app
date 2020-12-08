@@ -13,3 +13,7 @@ div.Main-section {
   background-color: whitesmoke;
   color: slategray;
 }
+
+div {
+  border: orange 2px solid;
+}
