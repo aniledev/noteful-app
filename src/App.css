@@ -1,0 +1,15 @@
+div.Main {
+  display: flex;
+  flex-direction: row;
+  min-height: calc(100vh - 20px);
+}
+
+div.Sidebar-section {
+  background-color: slategray;
+  color: whitesmoke;
+}
+
+div.Main-section {
+  background-color: whitesmoke;
+  color: slategray;
+}
