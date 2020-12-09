@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import STORE from "../STORE";
 
-function Folder(props) {
+function Folder() {
   return (
     <div className="Folder">
-      <h3>Folder</h3>
+      <h3>{}</h3>
     </div>
   );
 }
