@@ -14,11 +14,10 @@ class MainSideBar extends Component {
   };
 
   render() {
-    const { STORE } = this.props;
     return (
       <div className="MainSideBar">
         {STORE.folders.map((folder) => (
-          <Folder key={this.props.id} header={this.props.name} />
+          <Folder key={folder.id} header={folder.name} />
         ))}
 
         <div>
