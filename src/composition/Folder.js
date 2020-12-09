@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import STORE from "../STORE";
 
-function Folder() {
+function Folder(props) {
   return (
     <div className="Folder">
-      <h3>Folder name goes here</h3>
+      <h3>{props.name}</h3>
     </div>
   );
 }

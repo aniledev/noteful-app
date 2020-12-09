@@ -17,7 +17,7 @@ class MainSideBar extends Component {
     return (
       <div className="MainSideBar">
         {STORE.folders.map((folder) => (
-          <Folder key={folder.id} header={folder.name} />
+          <Folder key={folder.id} name={folder.name} />
         ))}
 
         <div>
